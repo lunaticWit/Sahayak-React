@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D7A58" />
+      <stop offset="100%" stop-color="#1B4D3E" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="112" fill="#1B4D3E" />
+  <!-- Circle Accent -->
+  <circle cx="256" cy="256" r="180" fill="#245E4D" opacity="0.4" />
+  
+  <!-- Plant Sprout Icon -->
+  <g transform="translate(106, 96) scale(0.6)">
+    <!-- Main stem -->
+    <path d="M250 450 C 250 300, 250 200, 250 80" stroke="#F59E0B" stroke-width="24" stroke-linecap="round" fill="none" />
+    
+    <!-- Left Leaf -->
+    <path d="M250 320 C 140 320, 80 220, 100 120 C 180 130, 240 210, 250 320 Z" fill="url(#goldGrad)" />
+    
+    <!-- Right Leaf -->
+    <path d="M250 220 C 360 220, 420 120, 400 20 C 320 30, 260 110, 250 220 Z" fill="#E2E8F0" />
+    
+    <!-- Soil / Field Rows -->
+    <path d="M80 440 Q 250 420 420 440" stroke="#D97706" stroke-width="20" stroke-linecap="round" fill="none" />
+    <path d="M120 475 Q 250 460 380 475" stroke="#F59E0B" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.7" />
+  </g>
+</svg>
