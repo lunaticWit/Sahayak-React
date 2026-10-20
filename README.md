@@ -26,7 +26,3 @@ The Express API listens on port 4000. Vite proxies `/api` requests to it. Both t
 - `npm run lint` runs the TypeScript check.
 
 Environment variable names and examples are in `.env.local.example`. Never put server secrets in variables prefixed with `VITE_`; those values are included in the browser bundle.
-
-# Sahayak-React
-This is Farmer's Marketplace Portal.
-
