@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sahayak React Marketplace
 
 React 19 and Vite frontend for the Sahayak agricultural marketplace, with an Express API and the existing FastAPI AI service. The React screens, design system, translations, assets, and business logic are preserved from the Next.js project.
@@ -26,3 +27,7 @@ The Express API listens on port 4000. Vite proxies `/api` requests to it. Both t
 - `npm run lint` runs the TypeScript check.
 
 Environment variable names and examples are in `.env.local.example`. Never put server secrets in variables prefixed with `VITE_`; those values are included in the browser bundle.
+=======
+# Sahayak-React
+This is Farmer's Marketplace Portal.
+>>>>>>> d7fbfb712f0ecdd1e6eea83fee5aa0eb6af4c9e2
